@@ -1,5 +1,5 @@
 
-function fibonacci(num) {
+// function fibonacci(num) {
 // your code here
 	// if (num <= 0) {
  //    return 0;
@@ -8,6 +8,7 @@ function fibonacci(num) {
  //  } else {
  //    return fibonacci(num - 1) + fibonacci(num - 2);
  //  }
+  function fibonacci(num) {
   if (num == 0) return 0;
   if (num == 1) return 1;
 
@@ -22,7 +23,6 @@ function fibonacci(num) {
   }
 
   return fib;
-	
 }
 
 module.exports = fibonacci;
