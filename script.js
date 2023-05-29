@@ -6,7 +6,7 @@
       arr.push(arr[i - 1] + arr[i - 2]);
     }
   
-    return arr[num-1];
+    return arr;
 }
 
 module.exports = fibonacci;
