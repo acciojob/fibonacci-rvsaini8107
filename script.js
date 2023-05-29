@@ -5,7 +5,7 @@
     for (let i = 2; i < num; i++) {
       arr.push(arr[i - 1] + arr[i - 2]);
     }
-  
+	  console.log(arr[num-1])
     return arr[num-1];
 }
 
